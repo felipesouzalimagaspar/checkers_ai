@@ -66,6 +66,7 @@ board3 = [
 moves3 = [
     (0, 1, 1, 2, False),  # Movimento inválido - célula ocupada por peça branca
     (6, 5, 5, 4, True),  # Movimento válido de peão preto
+    (2, 0, 3, 1, False),  # Movimento inválido de célula vazia
 ]
 
 # Você pode adicionar mais instâncias de teste conforme necessário
