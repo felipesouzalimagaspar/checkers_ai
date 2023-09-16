@@ -69,12 +69,28 @@ moves3 = [
     (2, 0, 3, 1, False),  # Movimento inválido de célula vazia
 ]
 
+board4 = [
+    [0, -1, 0, -1, 0, -1, 0, -1],
+    [-1, 0, -1, 0, -1, 0, -1, 0],
+    [0, -1, 0, -1, 0, -1, 0, -1],
+    [0, 0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 1, 0, 0, 0],
+    [0, 1, 0, 1, 0, 0, 0, 1],
+    [1, 0, 1, 0, 1, 0, 1, 0]
+]
+moves4 = [
+    (2, 1, 6, 5,True),  # Movimento válido comendo duas peças
+    #(6, 0, 5, 1, True),  # Movimento válido de peão preto
+]
+
 # Você pode adicionar mais instâncias de teste conforme necessário
 
 
 # Você pode adicionar mais instâncias de teste conforme necessário
 
 
-test_moves(board1, moves1)
-test_moves(board2, moves2)
-test_moves(board3, moves3)
+#test_moves(board1, moves1)
+#test_moves(board2, moves2)
+#test_moves(board3, moves3)
+test_moves(board4, moves4)
