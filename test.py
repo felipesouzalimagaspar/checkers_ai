@@ -74,6 +74,6 @@ moves3 = [
 # Você pode adicionar mais instâncias de teste conforme necessário
 
 
-#test_moves(board1, moves1)
-#test_moves(board2, moves2)
+test_moves(board1, moves1)
+test_moves(board2, moves2)
 test_moves(board3, moves3)
