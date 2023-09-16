@@ -47,9 +47,9 @@ board2 = [
 ]
 moves2 = [
     (2, 3, 3, 4, True),  # Movimento válido de peão branco
-    (2, 3, 4, 5, True),  # Movimento válido de peão branco
-    (2, 3, 1, 4, False),  # Movimento inválido - mesma coluna
-    (2, 3, 3, 3, False),  # Movimento inválido - mesma diagonal
+    (2, 5, 3, 6, True),  # Movimento válido de peão branco
+    #(2, 3, 1, 4, False),  # Movimento inválido - mesma coluna
+    #(2, 3, 3, 3, False),  # Movimento inválido - mesma diagonal
 ]
 
 # Instância 3: Movimento inválido - célula ocupada
@@ -74,6 +74,6 @@ moves3 = [
 # Você pode adicionar mais instâncias de teste conforme necessário
 
 
-test_moves(board1, moves1)
-#test_moves(board2, moves2)
+#test_moves(board1, moves1)
+test_moves(board2, moves2)
 #test_moves(board3, moves3)
