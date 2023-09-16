@@ -65,7 +65,7 @@ board3 = [
 ]
 moves3 = [
     (0, 1, 1, 2, False),  # Movimento inválido - célula ocupada por peça branca
-    (5, 4, 4, 3, True),  # Movimento válido de peão preto
+    (6, 5, 5, 4, True),  # Movimento válido de peão preto
 ]
 
 # Você pode adicionar mais instâncias de teste conforme necessário
@@ -75,5 +75,5 @@ moves3 = [
 
 
 #test_moves(board1, moves1)
-test_moves(board2, moves2)
-#test_moves(board3, moves3)
+#test_moves(board2, moves2)
+test_moves(board3, moves3)
