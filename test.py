@@ -31,7 +31,7 @@ moves1 = [
     (2, 3, 3, 4,True),  # Movimento válido de peão branco
     (6, 0, 5, 1, True),  # Movimento válido de peão preto
     (1, 0, 2, 0, False),  # Movimento inválido - mesma coluna peão branco
-    #(5, 4, 4, 5, False),  # Movimento inválido - mesma diagonal
+    (1, 0, 2, 1, False),  # Movimento inválido - mesma diagonal peão branco
 ]
 
 # Instância 2: Movimento válido de peão branco
