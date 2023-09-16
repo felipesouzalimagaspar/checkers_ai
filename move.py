@@ -14,7 +14,7 @@ def check(x0: int, y0: int, x: int, y: int, board: list):
         if len(jumps) > 2: return False #long jump
     return True
 def route(x0: int, y0: int, x: int, y: int, board: list):
-    player = math.ceil(board[x0][y0]/2)
+    player = math.ceil(board[x0][y0]/2) if board[x0][y0]/2 > 0 else math.floor(board[x0][y0]/2)
     jumps = []
     xfactor = -1 if x < x0 else 1
     yfactor = -1 if y < y0 else 1
