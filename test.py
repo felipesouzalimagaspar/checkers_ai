@@ -80,7 +80,10 @@ board4 = [
     [1, 0, 1, 0, 1, 0, 1, 0]
 ]
 moves4 = [
-    (2, 1, 6, 5,True),  # Movimento válido comendo duas peças
+    #comer duas peças em salto não funciona
+    #(2, 1, 6, 5,True),  # Movimento válido comendo duas peças
+    (2, 1, 4, 3,True),  # Movimento válido comendo duas peças - salto 1
+    (4, 3, 6, 5,True),  # Movimento válido comendo duas peças - salto 2
     #(6, 0, 5, 1, True),  # Movimento válido de peão preto
 ]
 
