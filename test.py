@@ -28,9 +28,9 @@ board1 = [
     [0, 1, 0, 1, 0, 1, 0, 1]
 ]
 moves1 = [
-    (2, 3, 3, 4,True),  # Movimento válido de peão preto
+    (2, 3, 3, 4,True),  # Movimento válido de peão branco
     (6, 0, 5, 1, True),  # Movimento válido de peão preto
-    #(5, 4, 3, 4, False),  # Movimento inválido - mesma coluna
+    (1, 0, 2, 0, False),  # Movimento inválido - mesma coluna peão branco
     #(5, 4, 4, 5, False),  # Movimento inválido - mesma diagonal
 ]
 
