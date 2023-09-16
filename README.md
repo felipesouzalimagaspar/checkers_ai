@@ -16,7 +16,7 @@ Este projeto faz parte do curso de Técnicas Especiais de Programação Intelig�
 ## Desenvolvedores
 
 - **Felipe Souza Lima Gaspar**
-  - Email: [email@example.com](mailto:email@example.com)
+  - Email: [email@example.com](mailto:felipesouzalimagaspar@gmail.com)
   - GitHub: [felipesouzalimagaspar](https://github.com/felipesouzalimagaspar/)
 - **Silvio Cesar Silva Oliveira**
   - Email: [silviocesar429@hotmail.com](mailto:silviocesar429@hotmail.com)
